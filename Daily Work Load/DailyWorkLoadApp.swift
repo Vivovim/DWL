@@ -1,18 +1,19 @@
 //
-//  Daily_Work_LoadApp.swift
+//  DailyWorkLoadApp.swift
 //  Daily Work Load
 //
 //  Created by Christopher Huffaker on 4/10/25.
 //
 
+
 import SwiftUI
 
-@main
-struct Daily_Work_LoadApp: App {
+struct DailyWorkLoadApp: App {
+    @NSApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+
     var body: some Scene {
         WindowGroup {
             ContentView()
-                    
         }
     }
 }
