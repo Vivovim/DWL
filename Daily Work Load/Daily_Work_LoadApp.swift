@@ -9,6 +9,10 @@ import SwiftUI
 
 @main
 struct Daily_Work_LoadApp: App {
+    
+    @NSApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+    
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
