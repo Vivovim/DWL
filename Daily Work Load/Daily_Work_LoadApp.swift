@@ -20,3 +20,6 @@ struct Daily_Work_LoadApp: App {
         }
     }
 }
+
+
+// there was the problem.
