@@ -27,10 +27,12 @@ Also you have to grant privilages to the app once compiled to allow the app to c
 
 Control Panel => Privacy & Security => Accessability has to be enabled for the App.
 
-The reports is a little buggy. You have to wait at least ten - fifteen minutes for app use to accumalate and maybe run the report twice for data to export.
+This a functional app now.
 
+Everything works as expected. 
 
-If you feel like working on this project, let me know. Would like to have it a lot better.
+Enjoy!
+
 
 
 -Neo
