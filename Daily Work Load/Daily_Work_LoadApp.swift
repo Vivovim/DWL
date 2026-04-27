@@ -15,8 +15,7 @@ struct Daily_Work_LoadApp: App {
     
     var body: some Scene {
         WindowGroup {
-            ContentView()
-                    
+            ContentView(tracker: appDelegate.tracker)
         }
     }
 }

@@ -8,20 +8,12 @@ import Foundation
 import AppKit
 
 class AppDelegate: NSObject, NSApplicationDelegate {
-    var tracker: AppTracker!
-    var scheduler: DailyScheduler!
+    let tracker = AppTracker()
+    var scheduler: DailyScheduler?
 
     func applicationDidFinishLaunching(_ notification: Notification) {
-        tracker = AppTracker()
-       
         scheduler = DailyScheduler(tracker: tracker)
-        
-        
 
-        
-      
-        
-        
         print("🌀 Daily Work Load tracking started.")
     }
 }

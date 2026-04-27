@@ -79,7 +79,7 @@ class DailyScheduler {
         self.tracker = tracker
     
           // Starts the scheduled timer for daily report
-          timer = Timer.scheduledTimer(withTimeInterval: 45, repeats: true) { _ in
+          timer = Timer.scheduledTimer(withTimeInterval: 60, repeats: true) { _ in
               self.checkTimeForReport()
           }
       }
@@ -147,10 +147,5 @@ class DailyScheduler {
 
     
 }
-
-
-
-let tracker = AppTracker()
-
 
 
